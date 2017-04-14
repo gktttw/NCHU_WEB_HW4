@@ -4,53 +4,46 @@
   <meta charset="utf-8">
   <title>show demo</title>
   <style>
-	body{
-		    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: 0;
+	html,body{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border: 0;
 		background: #e6e6e6;
 	}
-	div.header{
-	position: relative;
-    background: #ffffff;
-    height: 50px;
-	margin: 0 0 15px 0;
+	.header{
+		background: #ffffff;
+		height: 50px;
+		margin: 0 0 15px 0;
 	}
-	div.container{
+	.container{
+		overflow:auto;
 		width: 960px;
 		margin: 15px auto 0 auto;
 	}
-  div.left{
-	padding: 15px 15px 15px 15px;
-    background: #ffffff;
-    width: 150px;
-    float: left;
-   
-  }
-	div.mid{
+	.left{
+		padding: 15px 15px 15px 15px;
+		background: #ffffff;
+		width: 150px;
+		float: left;
+	}
+	.mid{
 		padding: 0px 0px 15px 0px;
 		background: #ffffff;
 		width: 570px;
 		float: left;
 		margin: 0 0 0 15px;
 	}
-  div.right{
-	margin: 0 0 0 15px;
-	padding: 15px 15px 15px 15px;
-    background: #ffffff;
-    width: 150px;
-    float: right;
-    
-  }
-  div.inside{
-    background: #def3ca;
-    margin: 3px;
-    width: 80px;
-    display: none;
-    float: left;
-    text-align: center;
-  }
+	.right{
+		margin: 0 0 0 15px;
+		padding: 15px 15px 15px 15px;
+		background: #ffffff;
+		width: 150px;
+		float: right;
+	}
+
 
 
   </style>
@@ -133,18 +126,18 @@
 		<div class="header">
 		</div>
 		<div class="left">
-		<button id="intro_b">介紹+</button>
-		<p id="intro" style="display: none;">It's a shirt.</p>
-		<br/>
-		<br/>
-		<br/>
-		<button id="comment_b">評論+</button>
-		<p id="comment" style="display: none;">Good shit.</p>
-		<br/>
-		<br/>
-		<button id="shit">我從這裡抄的</button>
-		<br/>
-		<img src="logo_uq.gif" id="uniqlo" style="display: none"/>
+			<button id="intro_b">介紹+</button>
+			<p id="intro" style="display: none;">It's a shirt.</p>
+			<br/>
+			<br/>
+			<br/>
+			<button id="comment_b">評論+</button>
+			<p id="comment" style="display: none;">Good shit.</p>
+			<br/>
+			<br/>
+			<button id="shit">我從這裡抄的</button>
+			<br/>
+			<img src="logo_uq.gif" id="uniqlo" style="display: none"/>
 		</div>
 		
 		<div class="mid">
